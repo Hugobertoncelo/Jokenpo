@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+img {
+  position: fixed;
+  top: 0;
+}
+
 body {
   background: url("https://picsum.photos/1600/900");
   background-size: cover;
@@ -15,7 +20,7 @@ body {
 
 .container {
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #ffffffa8;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -60,9 +65,13 @@ p {
 }
 
 .your-score span {
-  color: rgb(77, 128, 216);
+  color: rgb(0, 28, 243);
+  border: 3px solid;
+  border-color: #f00 #0f0 #00f #fc0;
 }
 
 .machine-score span {
-  color: rgb(224, 71, 15);
+  color: rgb(253, 0, 0);
+  border: 3px solid;
+  border-color: #f00 #0f0 #00f #fc0;
 }
